@@ -4,10 +4,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 
 const routes: Routes = [
-  {
-    path:'',
-    component:ToolbarComponent
-  }
+  
 ];
 
 @NgModule({
