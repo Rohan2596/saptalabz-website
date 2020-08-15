@@ -1,0 +1,25 @@
+.toolbarMain{
+  width: 100%;
+  height: 10%
+}
+.websiteName{
+    width: fit-content;
+    padding: 2%;
+    color: #1d3552;
+    font-weight: bolder;
+    line-height: normal;
+    font-style: normal;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.menuItems{
+    width: fit-content;
+    padding: 2%;
+    color: #49ab83;
+    font-weight: 400;
+    line-height: normal;
+    font-size: small;
+    padding:5%;
+   cursor: pointer;
+}

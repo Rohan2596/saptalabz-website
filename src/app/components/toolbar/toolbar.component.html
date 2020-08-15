@@ -1,1 +1,25 @@
-<p>toolbar works!</p>
+<div class=".toolbarMain" fxLayout="row">
+    <mat-toolbar style="background-color: white; width: 100%;" fxLayout="row" fxLayoutAlign="space-between center">
+
+        <span class="websiteName" fxFlex="40">SAPTALABZ</span>
+        <div fxFlex="10" fxHide fxShow.gt-xs fxShow.xs fxShow.sm fxHide.gt-sm fxHide.md fxHide.gt-md fxHide.lg
+            fxHide.gt-lg fxHide.xl>
+            <button mat-icon-button style="color: #49ab83;" >
+                <mat-icon>menu</mat-icon>
+              </button>
+        </div>
+        <div fxFlex="50" fxHide fxShow.gt-sm fxLayout="row" fxLayoutAlign="end center" style="width: fit-content;">
+            <span class="menuItems">About</span>
+
+            <span class="menuItems">Case Studies</span>
+
+            <span class="menuItems">Team</span>
+
+            <span class="menuItems">Contact</span>
+
+
+        </div>
+
+
+    </mat-toolbar>
+</div>
