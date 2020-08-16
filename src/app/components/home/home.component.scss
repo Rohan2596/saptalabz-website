@@ -37,6 +37,7 @@
     width: 50%;
     align-self: center;
     border-radius: 4%;
+    transition: background-color ease-in-out 500ms;
     &:hover{
         border: 2px solid #FFC107;
 
