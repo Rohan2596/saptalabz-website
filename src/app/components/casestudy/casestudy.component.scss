@@ -1,0 +1,70 @@
+.caseMain{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.caseTitle{
+    align-self: center;
+    font-size: xxx-large;
+    color: #1d3552;
+}
+.reviews{
+    width: 100%;
+    align-self: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .caseTitle{
+        align-self: center;
+        font-size: medium;
+        color: #1d3552;
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 360px) {
+    .caseTitle{
+        align-self: center;
+        font-size: x-large;
+        color: #1d3552;
+    }
+}
+@media only screen and (min-width: 760px) {
+    .caseTitle{
+        align-self: center;
+        font-size: x-large;
+        color: #1d3552;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .caseTitle{
+        align-self: center;
+        font-size: x-large;
+        color: #1d3552;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .caseTitle{
+        align-self: center;
+        font-size: xxx-large;
+        color: #1d3552;
+    }
+
+}
+@media only screen and (min-width: 2550px) {
+    .caseTitle{
+        align-self: center;
+        font-size: xxx-large;
+        color: #1d3552;
+    }
+   
+}
