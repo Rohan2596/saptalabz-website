@@ -9,6 +9,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { HomeComponent } from './components/home/home.component';
 import { CasestudyComponent } from './components/casestudy/casestudy.component';
+import { TeamComponent } from './components/team/team.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CasestudyComponent } from './components/casestudy/casestudy.component';
     ToolbarComponent,
     AboutUsComponent,
     HomeComponent,
-    CasestudyComponent
+    CasestudyComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

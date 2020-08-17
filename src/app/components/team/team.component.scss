@@ -1,0 +1,123 @@
+.caseMain{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.caseTitle{
+    align-self: center;
+    font-size: xxx-large;
+    color: #1d3552;
+}
+.reviews{
+    width: 80%;
+    align-self: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.example-card {
+    max-width: 100%;
+    color:#1d3552;
+    background-color: white;
+    margin-top: 2%;
+    box-shadow: none;
+    &:hover{
+      box-shadow: 0px 8px 6px -6px black;
+      text-decoration: underline #ffc10f;
+      border: 1px  solid #1d3552;
+    }
+    
+  }
+  .example-header-image {
+    background-image: url('../../../assets/expand.png');
+    background-size: cover;
+  }
+  .mat-card-header .mat-card-title {
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+@media only screen and (max-width: 360px) {
+    .caseTitle{
+        align-self: center;
+        font-size: medium;
+        color: #1d3552;
+    }
+    .reviews{
+        width: 80%;
+        align-self: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .mat-card-header .mat-card-title {
+        font-size:small;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 360px) {
+    .caseTitle{
+        align-self: center;
+        font-size: x-large;
+        color: #1d3552;
+    }
+    .reviews{
+        width: 80%;
+        align-self: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .mat-card-header .mat-card-title {
+        font-size: small;
+       
+        
+    }
+   
+}
+@media only screen and (min-width: 760px) {
+    .caseTitle{
+        align-self: center;
+        font-size: x-large;
+        color: #1d3552;
+    }
+   
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .caseTitle{
+        align-self: center;
+        font-size: x-large;
+        color: #1d3552;
+    }
+    .mat-card-header .mat-card-title {
+        font-size: large;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .caseTitle{
+        align-self: center;
+        font-size: xxx-large;
+        color: #1d3552;
+    }
+    .mat-card-header .mat-card-title {
+        font-size: x-large;
+    }
+}
+@media only screen and (min-width: 2550px) {
+    .caseTitle{
+        align-self: center;
+        font-size: xxx-large;
+        color: #1d3552;
+    }
+    .mat-card-header .mat-card-title {
+        font-size: x-large;
+    }
+}
